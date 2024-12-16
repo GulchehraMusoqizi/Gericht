@@ -1,0 +1,65 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    outline: none;
+}
+
+.site{
+    max-width: 1920px;
+    margin: auto;
+    // border: 1px solid red;
+    overflow: hidden;
+}
+
+
+.btnyel{
+    display:block;
+    width: 141px;
+    height: 44px;
+    background: $c-yellow;
+    padding: 8px 22px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Cormorant Upright';
+    color: $c-black;
+    white-space: nowrap;
+    margin-top: 30px;
+    box-shadow: 0 0 10px $c-yellow;
+    border: 1px solid $c-yellow;
+    transition: .3s ease-in-out;
+
+    &:hover{
+        background: transparent;
+        color: $c-yellow;
+        
+    }
+}
+
+
+
+
+h2{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83px;
+    font-family: 'Cormorant Upright';
+    color: $c-yellow;
+    white-space: nowrap;
+}
